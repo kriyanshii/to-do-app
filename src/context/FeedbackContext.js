@@ -5,11 +5,11 @@ const FeedbackContext = createContext();
 
 export const FeedbackProvider = ({ children }) => {
 	const [task, setTask] = useState([
-		{
-			priority: 1,
-			id: 1,
-			text: "This is from context",
-		},
+		// {
+		// 	priority: 1,
+		// 	id: 1,
+		// 	text: "This is from context",
+		// },
 	]);
 
 	const [text, setText] = useState("");
